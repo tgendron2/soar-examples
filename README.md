@@ -6,4 +6,4 @@ The example shows how to use  a format block to set up the values for the create
 ***[Example]Artifact-update*** This example playbook adds a value to existing artifacts. It requires a container with artficat(s) named URL. Each artifact has a field called requestURL and you give it a url value to test with. 
 The playbook filters by artifacts named URL and uses the requestURL as input to the whois app. the raw results returned by whois are added to the artifact in the field Raw.
 
-In the events dhasboard on Soar, use + Event to create a new event AKA a container. Then use the add artifact UI screren to add artficats named URL and add the requestURL value. 
+In the events dashboard on Soar, use + Event to create a new event AKA a container. Then use the add artifact UI screren to add artficats named URL and add the requestURL value. 
