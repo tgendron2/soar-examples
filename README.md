@@ -7,3 +7,6 @@ The example shows how to use  a format block to set up the values for the create
 The playbook filters by artifacts named URL and uses the requestURL as input to the whois app. the raw results returned by whois are added to the artifact in the field Raw.
 
 In the events dashboard on Soar, use + Event to create a new event AKA a container. Then use the add artifact UI screren to add artficats named URL and add the requestURL value. 
+
+***[Example]Data path***
+
