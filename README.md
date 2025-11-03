@@ -8,5 +8,7 @@ The playbook filters by artifacts named URL and uses the requestURL as input to 
 
 In the events dashboard on Soar, use + Event to create a new event AKA a container. Then use the add artifact UI screren to add artficats named URL and add the requestURL value. 
 
-***[Example]Data path***
+***[Example]data_parse4_cf*** An example showing how to get a individual lists. I could not reference the individual items in the list with the datapath picker. Insteadn I show a couple techniques using two format blocks and alternatively a code block. These would be used to end individual items down stream.  It is depended on a custom function mainly becuase I thought that would help define a proper datapath. 
+
+Note that this example is one way of doing it. Datapath reference could still be a possibility but it is not obvious how to get it done, not have I found an example in the documentation. 
 
