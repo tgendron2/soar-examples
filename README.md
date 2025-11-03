@@ -12,7 +12,7 @@ In the events dashboard on Soar, use + Event to create a new event AKA a contain
 
 Note that this example is one way of doing it. Datapath reference could still be a possibility but it is not obvious how to get it done, not have I found an example in the documentation. 
 
-      ***datapath_format_test (1)*** The custom function that is used in the data parse4_cf example. You will have to modify the utlilty blick that calls the function so that it references you repo
-      See phantom.custom_function(custom_function="ods_dev_work/datapath_format_test", parameters=parameters, name="datapath_format_test_4", callback=show_cf_list) The string "ods_dev_work will have to be changed to link to the repo you save        this in on your enviornment. That it could be "local" but may not depending on how your source control is configured. 
+***datapath_format_test (1)*** The custom function that is used in the data parse4_cf example. You will have to modify the utlilty blick that calls the function so that it references you repo
+See phantom.custom_function(custom_function="ods_dev_work/datapath_format_test", parameters=parameters, name="datapath_format_test_4", callback=show_cf_list) The string "ods_dev_work will have to be changed to link to the repo you save        this in on your enviornment. That it could be "local" but may not depending on how your source control is configured. 
 
 
